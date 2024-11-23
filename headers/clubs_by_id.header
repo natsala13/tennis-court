@@ -1,0 +1,9 @@
+accept,"application/json, text/plain, */*"
+sec-fetch-site,cross-site
+origin,ionic://localhost
+sec-fetch-dest,empty
+accept-language,"en-US,en;q=0.9"
+sec-fetch-mode,cors
+user-agent,"Mozilla/5.0 (iPhone; CPU iPhone OS 17_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148"
+authorization,Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxMjUwLCJ0eXBlIjoiU3Vic2NyaWJlciIsImlhdCI6MTczMjM5MzcyNywiZXhwIjoxNzMyMzk0NzI3fQ.B38k2-ouvPpRTPOjhZLb2CDbl20KQSjMbWnH_DLb8TA
+accept-encoding,"gzip, deflate, br"

@@ -1,0 +1,12 @@
+content-type,application/json
+accept,"application/json, text/plain, */*"
+authorization,Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2lkIjoxMjUwLCJ0eXBlIjoiU3Vic2NyaWJlciIsInRva2VuVHlwZSI6InJlZnJlc2giLCJpYXQiOjE3MzE1MDIzNzUsImV4cCI6MjE2MzUwMjM3NX0.U54v_gfOxzF5oG4XMxy8rfM3KkfFRrEOYxddjvz0BH4
+sec-fetch-site,cross-site
+if-none-match,"W/""d6-Ng2tGLzs7CxOUhJdeFjv7w7R2JM"""
+accept-language,"en-US,en;q=0.9"
+sec-fetch-mode,cors
+accept-encoding,"gzip, deflate, br"
+origin,ionic://localhost
+user-agent,"Mozilla/5.0 (iPhone; CPU iPhone OS 17_3_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148"
+test,test
+sec-fetch-dest,empty

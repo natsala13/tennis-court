@@ -1,0 +1,14 @@
+authentication:
+    method: "POST"
+    url: "https://server.lazuz.co.il/users/token"
+    headers: "headers/lazuz_auth.file"
+available_slots:
+    method: "GET"
+    url: "https://server.lazuz.co.il/client-app/club/availble-slots/"
+    headers: "headers.file"
+    query: "query.file"
+clubs_by_id:
+    method: "GET"
+    url: "https://server.lazuz.co.il/client-app/clubs-by-ids/"
+    headers: "headers/clubs_by_id.header"
+    query: "headers/clubs_by_id.query"
