@@ -61,4 +61,6 @@ This can be usefull when trying to understand when should I reserve each court.
 ## Authentication
 * Authentication is done via the help of google FCM - Firebase Cloud Messaging.
 * The app acess two apis although only one of them looks helpfull - `https://fcmtoken.googleapis.com/register` that returns some sort of token.
-Then I access the api server.lazuz.co.il/users/token and I send it a new token and receive another one ??? where from??
+Then I access the api server.lazuz.co.il/users/token and I send it a new token and receive another one ??? where from?? 
+
+Court id 66 is Rokah 4, court id 139 is Rokah 67.
