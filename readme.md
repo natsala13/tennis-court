@@ -63,4 +63,11 @@ This can be usefull when trying to understand when should I reserve each court.
 * The app acess two apis although only one of them looks helpfull - `https://fcmtoken.googleapis.com/register` that returns some sort of token.
 Then I access the api server.lazuz.co.il/users/token and I send it a new token and receive another one ??? where from?? 
 
-Court id 66 is Rokah 4, court id 139 is Rokah 67.
+* Court id 66 is Rokah 4
+* Court id 139 is Rokah 67
+* Court 54 is Country Dekel
+* Court 106 is Shikun Vatikim
+* Court 55 is Yad Eliyahu
+* Court 177 is Country Rannana
+* Court 123  is Ranana Edan Leshem
+* Court 125 is Ranana Tennis way 
