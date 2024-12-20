@@ -71,3 +71,10 @@ class ApiCalls:
         request.query['date'] = date.strftime('%Y-%m-%d')
 
         return request.request()
+    
+    def clubs_by_multiple_id(self, club_ids: list[int], date: datetime) -> dict:
+        request = self['clubs_by_id']
+        request.query['clubIds'] = ','.join(str(id) for id in club_ids)
+        request.query['date'] = date.strftime('%Y-%m-%d')
+
+        return request.request()

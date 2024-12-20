@@ -1,0 +1,8 @@
+week_days:
+    days: [1, 2, 3, 4, 5]
+    hours: [19, 20, 21]
+    courts: [66, 139]
+weekends:
+    days: [6, 7]
+    hours: [10, 11]
+    courts: [66, 139]
