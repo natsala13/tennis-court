@@ -6,3 +6,7 @@ weekends:
     days: [6, 7]
     hours: [10, 11]
     courts: [66, 139]
+# Nvidia:
+#     days: [2]
+#     hours: [19, 20]
+#     courts: [125, 123, 177]
