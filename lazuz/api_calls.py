@@ -32,8 +32,8 @@ class ApiCall:
         self.method = method
         self._headers = read_http_headers_file(headers)
 
-        self.body = read_http_headers_file(body) if body else None
-        self.query = read_http_headers_file(query) if query else None
+        self.body = read_http_headers_file(body) if body else {}
+        self.query = read_http_headers_file(query) if query else {}
         self.token = token
 
     @property

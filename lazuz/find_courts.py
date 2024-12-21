@@ -11,7 +11,10 @@ PREFERENCE_FILE = Path("configs/court_preferences.yaml")
 
 
 def parse_free_hours(free_clubs: list[str]) -> list[int]:
-    return [int(re.match(r"([0-9]{2}):00", hour).group(1)) for hour in free_clubs]
+    free_hours = [re.match(r"([0-9]{2}):00", hour) for hour in free_clubs]
+    assert all(free_hours), f"Failed to parse {free_clubs}"
+
+    return [int(hour.group(1)) for hour in free_hours if hour]
 
 
 def load_preferences() -> dict:
@@ -24,7 +27,7 @@ def load_preferences() -> dict:
 
 def create_list_of_days(
     preferences: dict[str, dict[str, list[int]]]
-) -> dict[dict[int, set[int]]]:
+) -> dict[int, dict[int, set[int]]]:
     all_days = {day for category in preferences.values() for day in category["days"]}
     all_days_cartezian = [
         (day, category["hours"], category["courts"])
