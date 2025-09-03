@@ -51,12 +51,12 @@ def create_list_of_days(
     }
 
 
-def find_courts_on_preference():
+def find_courts_on_preference(days_forward: int = 30):
     config = load_preferences()
     all_days = create_list_of_days(config)
 
     api_calls = ApiCalls()
-    next_days = [datetime.now() + timedelta(days=day) for day in range(30)]
+    next_days = [datetime.now() + timedelta(days=day) for day in range(days_forward)]
 
     # 4 is Friday, 5 is Saturday, 6 is Sunday.
     next_days = [day for day in next_days if ((day.weekday() + 2) % 7) in all_days]

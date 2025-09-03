@@ -5,8 +5,8 @@ authentication:
 available_slots:
     method: "GET"
     url: "https://server.lazuz.co.il/client-app/club/availble-slots/"
-    headers: "headers.file"
-    query: "query.file"
+    headers: "UNKNOWN HEADERS"
+    query: "UNKNOWN HEADERS"
 clubs_by_id:
     method: "GET"
     url: "https://server.lazuz.co.il/client-app/clubs-by-ids/"
