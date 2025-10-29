@@ -1,3 +1,15 @@
+# Tennis court reverse API
+
+## How to use
+`pip install -r requirements.txt`
+
+* Update `configs/court_preferences.yaml` with the courts you like, days and hours.
+* A list of courts id can be found here at the end of the readme.
+
+`python lazuz/find_courts.py`
+
+
+## Reproduce reverse
 * Using proxy mitmproxy from "https://github.com/mitmproxy/mitmproxy.git".
 
 Using transparent HTTPS mode with flag "--set tls_version_client_min=TLS1"
@@ -62,6 +74,9 @@ This can be usefull when trying to understand when should I reserve each court.
 * Authentication is done via the help of google FCM - Firebase Cloud Messaging.
 * The app acess two apis although only one of them looks helpfull - `https://fcmtoken.googleapis.com/register` that returns some sort of token.
 Then I access the api server.lazuz.co.il/users/token and I send it a new token and receive another one ??? where from?? 
+
+
+## Court ids
 
 * Court id 66 is Rokah 4
 * Court id 139 is Rokah 67
