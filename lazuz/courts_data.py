@@ -5,7 +5,7 @@ DAYS = {
     4: "WEDNESDAY",
     5: "THURSDAY",
     6: "FRIDAY",
-    7: "SATURDAY",
+    0: "SATURDAY",
 }
 
 COURTS = {

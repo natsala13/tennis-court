@@ -3,8 +3,8 @@ week_days:
     hours: [19, 20, 21]
     courts: [66, 139]
 weekends:
-    days: [6, 7]
-    hours: [10, 11]
+    days: [6, 0]  # 0 is Saturday
+    hours: [9, 10, 11, 18, 19, 20, 21]
     courts: [66, 139]
 # Nvidia:
 #     days: [2]

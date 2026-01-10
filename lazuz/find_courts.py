@@ -86,7 +86,7 @@ def find_courts_on_preference(days_forward: int = 30):
         if existing_slots:
             for court, hours in existing_slots.items():
                 print(
-                    f'{DAYS[(day.weekday() + 1) % 7 + 1]} - {day.strftime("%d / %m")} - {COURTS[court]} - {hours}'
+                    f'{DAYS[(day.weekday() + 2) % 7]} - {day.strftime("%d / %m")} - {COURTS[court]} - {hours}'
                 )
 
 
